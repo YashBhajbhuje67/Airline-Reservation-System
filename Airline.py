@@ -1,7 +1,7 @@
 import pandas as pd
 import mysql.connector as sql
 
-conn = sql.connect(host='localhost', user='root', passwd='yash672001', database='airline')
+conn = sql.connect(host='localhost', user='root', passwd='yashabcd', database='airline')
 if conn.is_connected():
     print('successfully connected')
 
